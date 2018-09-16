@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tugas 2 CSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div id="navbar">
+  <a href="#home">IndoLove</a>
+</div>
+<br><br><br>
+<div>
+  <img src="Foto.jpg" alt="Mazerunner" style="width:400px;height:300px;">
+  <h1>Dukunglah Kami!</h1>
+  <p>Kami tim IndoLove akan mengikuti lomba Technopreneuship dengan membuat usaha bisnis makanan Online bernama F-Share. F-Share adalah bukanlah sebuah bisnis kuliner online biasa tetapi di F-Share ini kalian bisa memberi makanan kepada orang yang membutuhkan. Maka dari itu kami ingin kalian membantu kami untuk memberikan pertanyaan dan masukkan tentang usaha kami dengan menggisi form dibawah. :) Kami akan menanggapi semua masukkan dan pertanyaan kalian dengan membalas melalui email kami</p>
+</div>
+<div>
+<table id="t01">
+  <tr>
+    <th>Nama Tim:</th>
+    <td>IndoLove</td> 
+  </tr>
+  <tr>
+    <th>Nama Ketua:</th>
+    <td>Iqbal imani Atfan</td>
+  </tr>
+  <tr>
+    <th>Nama Anggota 1:</th>
+    <td>Vinsensius Yuda Pratama</td>
+    
+  </tr>
+  <tr>
+     <th>Nama Anggota 2:</th>
+    <td>Muhammad Naufal Refadi</td>
+  </tr> 
+</table>
+</div>
+  
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Fill the form</h1>
+    <hr>
+    <div>
+        <label><b>Name:</b></label>
+        <input type="text" name="firstname" placeholder ="Insert Your Name" class="length-200" />
+    </div>
+    <div>
+        <label><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+     </div>
+    
+     <div>
+        <label><b>Pertanyaan dan masukkan</b></label>
+        <br>
+        <textarea class="form-control" rows="4" id="message" name="message" required data-error="Write your message" style="width:600px;height:100px;"></textarea>
+      </div>
+
+    <div class="clearfix">
+      <button type="submit">Submit</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
